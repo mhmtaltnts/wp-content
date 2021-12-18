@@ -1,0 +1,313 @@
+.course-container div.sensei-message.info, 
+.course-container p.sensei-message.info, 
+.course div.sensei-message.info, 
+.course p.sensei-message.info, 
+.learner-info div.sensei-message.info, 
+.learner-info p.sensei-message.info, 
+.lesson div.sensei-message.info, 
+.lesson p.sensei-message.info, 
+.quiz div.sensei-message.info, 
+.quiz p.sensei-message.info, 
+.sensei div.sensei-message.info, 
+.sensei p.sensei-message.info {
+    background:$beige;
+}
+
+
+.sensei-course-progress__bar div {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #00b40f;
+}
+
+div#customer_login.col2-set {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div#customer_login.col2-set > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+/*  buttons */
+
+a#featured, a#all,
+a.page-numbers, button.wp-block-button__link, .quiz-submit, a.button.send-message-button,
+a.sensei-collapsible__toggle.wp-block-button__link.wp-block-button__link, 
+button { 
+  
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color:$lightOrange;
+  color: $white;
+  font-size: 1.19rem;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+}
+
+span.page-numbers.current, select.orderby, 
+a#all.active, a#featured.active, 
+a.sensei-collapsible__toggle.wp-block-button__link.collapsed {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  background-color: $red;
+  color: $black;
+  font-size: 1.19rem;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  
+}
+/*  der ilerleme butonu*/
+
+.is-style-outline >.wp-block-button__link:not(.has-background), 
+.wp-block-button__link.is-style-outline:not(.has-background) {
+  background-color: $red;
+  color:$white;
+}
+/*   Sayfa alt kısım gezinti butonları */
+div.nav-prev.fl > a, div.nav-next.fr>a{
+  border-radius: 5px;
+  background-color: $red;
+  color:$white;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+section.sensei-breadcrumb{
+  
+  color:$black;
+}
+
+.nav-prev.meta-nav:before {
+  content: "#8656";
+}
+
+section.sensei-breadcrumb > a{
+  border-radius: 5px;
+  padding: 10px 10px;
+  background-color: $red;
+  color:$white;
+  font-weight: bold;
+  font-size: 19px;
+  
+}
+
+li > a.page-numbers:hover{
+  background-color: $lightOrange;
+}
+/* Pagination*/
+.page-numbers {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 2px 0 0;
+    border: 1px solid #eee;
+    line-height: 1;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: 600;
+     }
+ span.page-numbers.current:hover,
+ a.next.page-numbers:hover,
+ a.page-numbers:hover {
+    background:$hower;
+    }
+
+
+
+  
+  
+  .page-section{ 
+    
+    {
+    max-width: 750px;
+    margin: 20px auto;
+    padding: 0 16px;
+    position: relative;}
+
+    p, li {
+      font-size: 1.15rem;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 300;
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+
+    h1 {font-size: 3.6rem}
+  h2 {font-size: 3.1rem}
+  h3 {font-size: 2.6rem}
+  h4 {font-size: 2.1rem}
+  h5 {font-size: 1.6rem}
+  h6 {font-size: 1.15rem}
+
+  @mixin atSmall {
+    h1 {font-size: 6.25rem}
+    h2 {font-size: 3rem}
+    h3 {font-size: 3.125rem}
+    h4 {font-size: 2.4rem}
+    h5 {font-size: 1.9rem}
+    h6 {font-size: 1.15rem}
+  }
+    
+  }
+
+  .page-section--narrow {
+    max-width: 550px;
+  }
+
+  ol#sensei-quiz-list{
+    padding: 0px 0px 0px 20px;
+  }
+
+  
+ /* Sayfa sonlarında pagination ve yorum css*/ 
+  nav#post-entries.fix{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 10px 10px 16px 10px;
+    position: relative;
+  }
+
+  section.sensei-breadcrumb{
+    max-width: 980px;
+    margin: 30px auto;
+    padding: 10px 10px 16px 10px;
+    position: relative;
+  }
+
+  p.nocomments{
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 10px 10px 16px 10px;
+    position: relative;
+    text-align: center;
+
+  }
+
+  div#respond.comment-respond{
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 10px 10px 16px 10px;
+    position: relative;
+    text-align: center;
+
+  }
+
+  textarea#comment{
+    max-width: 320px;
+  }
+
+  nav#post-entries.post-entries.fix{
+    max-width: 850px;
+    justify-content: center;
+  }
+
+  nav.sensei-pagination{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 10px 10px 16px 10px;
+    position: relative;
+
+  }
+
+  /* Kurslar arşivinde en alt çizgiyi sildi */
+  .course-container.columns-1{
+    border-bottom: none;
+  }
+
+  /* Ders sayfasında kurs ilerleme durumu*/
+.ders {
+  *{
+    box-sizing: border-box;
+  }
+
+  .sensei-message.info{
+    float:left;
+    width: 100%;
+
+  }
+
+  .generic-content{
+    float:left;
+    width:65%;
+  }
+
+  .widget_sensei_course_progress ul.course-progress-navigation li {
+    width: 34%;
+  }
+  
+  .widget_sensei_course_progress ul.course-progress-navigation li a {
+    background:$red;
+    display: block;
+    padding: 1em 0;
+    color: $white;
+    line-height: 1.5em;
+    text-decoration: none;
+    border-radius: 5px;  
+    
+  }
+  
+  .widget_sensei_course_progress ul.course-progress-navigation li a:hover{
+    background-color: $lightOrange;
+  }
+  .widget.widget_sensei_course_progress{
+    {
+    float: left;
+    width:32%;
+    margin:110px 0px 0px 20px;
+    padding: 0px 5px 0px 5px;
+    background-color: $beige;
+    }
+
+    ul.course-progress-navigation{
+      
+      padding: 0px 0px 0px 0px;
+
+    }
+    ul.course-progress-lessons{
+      padding: 0px 0px 0px 0px;
+
+    }
+  }
+  
+  section.lesson-meta{
+    float:left;
+    width: 100%;
+
+  }
+  section.lesson-tags{
+    float:left;
+    width: 100%;
+
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .widget.widget_sensei_course_progress, .generic-content {
+      width: 100%;
+    }
+  }
+}
+
+/* İlerleme widget button renk*/
+
+
+
+
+
+
+
+
+  
